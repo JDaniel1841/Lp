@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>El ladrón de perros</title>
+</head>
+<body>
+
+<header>
+    <h1>¡Estreno Inminente!</h1>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#trailer">Tráiler</a></li>
+            <li><a href="#reparto">Reparto</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <h2 id="inicio">El Ladrón de Perros</h2>
+    <p>En un mundo donde los sueños se entrelazan con la realidad, un grupo de amigos se embarca en una aventura mágica para descubrir el significado verdadero de sus deseos. A medida que atraviesan paisajes fantásticos y enfrentan desafíos inimaginables, aprenderán que el mayor tesoro no siempre es lo que esperaban encontrar.</p>
+    <h2 id="trailer">Tráiler</h2>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/lZvnstCYbeY?si=MWjLi5GDrFAvjZdS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2 id="reparto">Reparto Principal</h2>
+    <div class="cast">
+        <div>
+            <img src="img/129381_v9_bb.jpg" alt="Alfredo Castro">
+            <p><strong>Alfredo Castro</strong></p>
+        </div>
+        <div>
+            <img src="img/whXwgtj7r8kUDNbVMRTFjdCpD3h.jpg" alt="Wolframio Sinué">
+            <p><strong>Wolframio Sinué</strong></p>
+        </div>
+        <div>
+            <img src="img/images.jfif" alt="Teresa Ruiz">
+            <p><strong>Teresa Ruiz</strong></p>
+        </div>
+    </div>
+    <h2 id="contacto">Contacto</h2>
+    <form action="/submit_form" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://facebook.com"><img src="iconos/facebook-icon.png" alt="Facebook"/></a>
+        <a href="https://instagram.com"><img src="iconos/instagram-icon.png" alt="Instagram"/></a>
+        <a href="https://x.com"><img src="iconos/x-icon.png" alt="X" /></a>
+    </div>
+</footer>
+</body>
+</html>
